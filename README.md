@@ -7,16 +7,16 @@ There are various ways to install Vim plugins, but the way I reccomend is using 
 
 To install this add this to your rc file:
 ```
-Plug 
+Plug 'Force4760/note-me-vim'
 ```
 
 ## How to use
 This plugin offers a few functions:
 
-### NoteCopySelection
+### NoteCopySection
 It copies the first hour section (Started with **### hour:minutes**) bellow the current line
 ```
-:NoteCopySelection
+:NoteCopySection
 ```
 
 ### NoteFormatNote
